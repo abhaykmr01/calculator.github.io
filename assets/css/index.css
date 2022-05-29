@@ -1,0 +1,107 @@
+    *,
+     ::after,
+     ::before {
+        box-sizing: border-box!important;
+        margin: 0!important;
+        padding: 0!important;
+        /* font-size: 2vw; */
+        color: white;
+    }
+    
+    .calculator-body {
+        background-color: black;
+        color: white;
+        height: 100vh !important;
+    }
+    
+    .display-container {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    
+    .history {
+        text-align: right;
+        align-self: end;
+        color: aqua;
+        height: auto !important;
+        max-height: 20vh;
+        overflow-wrap: break-word;
+    }
+    
+    .math-expression {
+        font-size: 1.5rem;
+        text-align: right;
+        align-self: end;
+        height: auto !important;
+        max-height: 20vh;
+        overflow-wrap: break-word;
+    }
+    
+    .button-container {
+        height: auto !important;
+    }
+    
+    .single-button-container {
+        height: 12vh;
+    }
+    
+    .button {
+        background-color: rgba(32, 30, 30, 0.61);
+        color: gold;
+        font-size: 2em!important;
+        font-weight: 100;
+        text-align: center;
+        /* border: 1px solid black!important; */
+        height: 97% !important;
+        margin-top: 2px!important;
+        /* margin-left: 3%!important; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3px!important;
+    }
+    
+    .first-button {
+        margin-left: 0!important
+    }
+    
+    .button:hover {
+        cursor: pointer;
+    }
+    
+    .side {
+        background-color: rgba(255, 140, 0, 0.884);
+        color: white;
+    }
+    
+    .equal-to-btn {
+        background-color: darkorange;
+    }
+    /* Large desktops and laptops */
+    
+    @media (min-width: 1200px) {}
+    /* Landscape tablets and medium desktops */
+    
+    @media (min-width: 992px) and (max-width: 1199px) {}
+    /* Portrait tablets and small desktops */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .calculator-body {
+            width: 100vw !important;
+            font-size: 3vw!important;
+        }
+        .math-expression {
+            font-size: 4.5rem;
+        }
+        .history {
+            font-size: 2rem;
+        }
+    }
+    /* Landscape phones and portrait tablets */
+    
+    @media (max-width: 767px) {}
+    /* Portrait phones and smaller */
+    
+    @media (max-width: 480px) {}
