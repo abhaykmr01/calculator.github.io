@@ -17,12 +17,8 @@
         <div class="row calculator-container d-md-flex align-items-center justify-content-center">
             <div class="calculator-body col-md-3 col-12">
                 <div class="display-container row">
-                    <div class="history col-12"> 124345+3435535*455hgkihgkhgjkhgjgjgjgjgjggkjhgjgjgjg</div>
-                    <div class="math-expression col-12">
-                        124345+3435535hgkihgkhgjkhgjgjgjgjgjggkjhgjgjgjghdgahskjgfdhjgaf afkajhfkjhakfh alshfdkjashfkhakjfhkahfkahf aljfhlashfkahfkahf afdkahsfkahsfkhaskfhaksfhkahf ajkfhkahfkahkfha
-                        <!-- <input type="text" class="texarea" readonly="true" placeholder="0" class="display-box"> -->
-
-                    </div>
+                    <div class="history col-12"></div>
+                    <div class="math-expression col-12">0</div>
 
                 </div>
                 <div class="button-container">
@@ -31,13 +27,13 @@
                             <div class="button first-button top-btn" data-value="clear"><i class="fa-solid fa-c"></i></div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button icons operation-button" data-value="plus-minus"><i class="fa-solid fa-plus-minus"></i></div>
+                            <div class="button icons" data-value="sign"><i class="fa-solid fa-plus-minus"></i></div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  operation-button"><i class="fa-solid fa-percent"></i></div>
+                            <div class="button  operation-button" data-value="%"><i class="fa-solid fa-percent"></i></div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button icons side operation-button" data-value="del"><i class="fa-solid fa-delete-left"></i></div>
+                            <div class="button icons side" data-value="del"><i class="fa-solid fa-delete-left"></i></div>
                         </div>
 
                     </div>
@@ -53,7 +49,7 @@
                             <div class="button  number-btn">9</div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  side operation-button"><i class="fa-solid fa-divide"></i></div>
+                            <div class="button  side operation-button" data-value="/"><i class="fa-solid fa-divide"></i></div>
                         </div>
 
                     </div>
@@ -68,7 +64,7 @@
                             <div class="button  number-btn">6</div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  side operation-button"><i class="fa-solid fa-xmark"></i></div>
+                            <div class="button  side operation-button" data-value="*"><i class="fa-solid fa-xmark"></i></div>
                         </div>
 
                     </div>
@@ -83,7 +79,7 @@
                             <div class="button  number-btn">3</div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  side operation-button"><i class="fa-solid fa-minus"></i></div>
+                            <div class="button  side operation-button" data-value="-"><i class="fa-solid fa-minus"></i></div>
                         </div>
 
                     </div>
@@ -92,15 +88,15 @@
                             <div class="button first-button number-btn">0</div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  number-btn">.</div>
+                            <div class="button  dot" data-value=".">.</div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  number-btn">=</div>
+                            <div class="button  equal-to" data-value="equal-to">=</div>
 
 
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  side operation-button"><i class="fa-solid fa-plus"></i></div>
+                            <div class="button  side operation-button" data-value="+"><i class="fa-solid fa-plus"></i></div>
 
 
                         </div>

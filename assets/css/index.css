@@ -36,6 +36,7 @@
         height: auto !important;
         max-height: 20vh;
         overflow-wrap: break-word;
+        /* transition: all 0.2s ease-in-out; */
     }
     
     .button-container {
