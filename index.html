@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <script src="https://kit.fontawesome.com/3ab75a4ed7.js" crossorigin="anonymous"></script>
     <script src="./assets/js/index.js" defer type="text/javascript"></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -27,20 +28,35 @@
                 <div class="button-container">
                     <div class="button-grp row">
                         <div class="col-3 single-button-container">
-                            <div class="button first-button top-btn">C</div>
+                            <div class="button first-button top-btn" data-value="clear"><i class="fa-solid fa-c"></i></div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  operation-button">+/-</div>
+                            <div class="button icons operation-button" data-value="plus-minus"><i class="fa-solid fa-plus-minus"></i></div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  operation-button">%</div>
+                            <div class="button  operation-button"><i class="fa-solid fa-percent"></i></div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  side operation-button">+</div>
+                            <div class="button icons side operation-button" data-value="del"><i class="fa-solid fa-delete-left"></i></div>
                         </div>
 
                     </div>
 
+                    <div class="button-grp row">
+                        <div class="col-3 single-button-container">
+                            <div class="button first-button number-btn">7</div>
+                        </div>
+                        <div class="col-3 single-button-container">
+                            <div class="button  number-btn">8</div>
+                        </div>
+                        <div class="col-3 single-button-container">
+                            <div class="button  number-btn">9</div>
+                        </div>
+                        <div class="col-3 single-button-container">
+                            <div class="button  side operation-button"><i class="fa-solid fa-divide"></i></div>
+                        </div>
+
+                    </div>
                     <div class="button-grp row">
                         <div class="col-3 single-button-container">
                             <div class="button first-button number-btn">4</div>
@@ -52,7 +68,7 @@
                             <div class="button  number-btn">6</div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  side operation-button">x</div>
+                            <div class="button  side operation-button"><i class="fa-solid fa-xmark"></i></div>
                         </div>
 
                     </div>
@@ -67,22 +83,7 @@
                             <div class="button  number-btn">3</div>
                         </div>
                         <div class="col-3 single-button-container">
-                            <div class="button  side operation-button">-</div>
-                        </div>
-
-                    </div>
-                    <div class="button-grp row">
-                        <div class="col-3 single-button-container">
-                            <div class="button first-button number-btn">7</div>
-                        </div>
-                        <div class="col-3 single-button-container">
-                            <div class="button  number-btn">8</div>
-                        </div>
-                        <div class="col-3 single-button-container">
-                            <div class="button  number-btn">9</div>
-                        </div>
-                        <div class="col-3 single-button-container">
-                            <div class="button  side operation-button">/</div>
+                            <div class="button  side operation-button"><i class="fa-solid fa-minus"></i></div>
                         </div>
 
                     </div>
@@ -93,8 +94,13 @@
                         <div class="col-3 single-button-container">
                             <div class="button  number-btn">.</div>
                         </div>
-                        <div class="col-6 single-button-container">
-                            <div class="button  number-btn equal-to-btn">=</div>
+                        <div class="col-3 single-button-container">
+                            <div class="button  number-btn">=</div>
+
+
+                        </div>
+                        <div class="col-3 single-button-container">
+                            <div class="button  side operation-button"><i class="fa-solid fa-plus"></i></div>
 
 
                         </div>
@@ -112,7 +118,7 @@
 <body>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 
 </html>

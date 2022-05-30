@@ -5,7 +5,6 @@
         margin: 0!important;
         padding: 0!important;
         /* font-size: 2vw; */
-        color: white;
     }
     
     .calculator-body {
@@ -69,11 +68,12 @@
     
     .button:hover {
         cursor: pointer;
+        opacity: 0.7;
     }
     
     .side {
         background-color: rgba(255, 140, 0, 0.884);
-        color: white;
+        color: white!important;
     }
     
     .equal-to-btn {
