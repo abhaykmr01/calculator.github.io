@@ -30,7 +30,7 @@
     }
     
     .math-expression {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         text-align: right;
         align-self: end;
         height: auto !important;
@@ -73,12 +73,14 @@
     }
     
     .side {
-        background-color: rgba(255, 140, 0, 0.884);
-        color: white!important;
+        /* background-color: rgba(255, 140, 0, 0.884); */
+        color: #ff4500!important;
     }
     
-    .equal-to-btn {
-        background-color: darkorange;
+    .equal-to {
+        /* background-color: rgba(255, 140, 0, 0.884); */
+        color: rgba(255, 140, 0, 0.884) !important;
+        border-radius: 3px !important;
     }
     /* Large desktops and laptops */
     

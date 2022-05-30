@@ -12,18 +12,6 @@ let global = {
 }
 
 const buttons = document.querySelector('.single-button-container');
-// console.log(mathExpressionDisplay.scrollHeight, mathExpressionDisplay.clientHeight, mathExpressionDisplay.style.fontSize);
-
-// function removeDisplayOverflow() {
-
-// }
-// if (mathExpressionDisplay.scrollHeight > mathExpressionDisplay.clientHeight) {
-//     mathExpressionDisplay.style.fontSize -= "4px";
-//     console.log(mathExpressionDisplay.scrollHeight, mathExpressionDisplay.clientHeight, mathExpressionDisplay.style.overflow);
-
-// }
-// const size = $('.math-expression').css('font-size');
-// console.log(size);
 (function() {
     removeOverflow(mathExpressionDisplay)
     console.log("hey")
@@ -40,9 +28,7 @@ function removeOverflow(targetElem) {
     }
 
 }
-// buttons.addEventListener("click", function(e) {
-//     console.log(e.target);
-// })
+
 
 document.addEventListener("click", function(e) {
     if (global.updateHistory == true) {
@@ -112,10 +98,6 @@ function addToDisplay(data) {
 
     let content = document.createTextNode(data);
     mathExpressionDisplay.appendChild(content);
-
-}
-
-function setHistory() {
 
 }
 
